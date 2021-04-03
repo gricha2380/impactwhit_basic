@@ -338,4 +338,10 @@
 
 						});
 
+						$(document).ready(function () {
+							$('#wufooForms1gnhbph0qq9j8s').on('load', function() {
+									$("#wufooForms1gnhbph0qq9j8s").contents().find("#footer").css("display", "none");
+							}); 
+					});
+
 })(jQuery);
